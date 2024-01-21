@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Nav.css';
 import { MdOutlineHome, MdLaptopChromebook } from 'react-icons/md';
 import { LuUser2 } from 'react-icons/lu';
@@ -6,7 +6,6 @@ import { RiServiceLine } from 'react-icons/ri';
 import { FaRegMessage } from 'react-icons/fa6';
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
       <a href="#"><MdOutlineHome /></a>

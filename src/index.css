@@ -56,3 +56,8 @@ img {
     width: 100%;
     object-fit: cover;
 }
+
+section {
+    margin-top: 6rem;
+    height: 100vh;
+}
