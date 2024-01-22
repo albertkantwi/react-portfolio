@@ -9,15 +9,15 @@ const About = () => (
   <section>
     <h5>Get to know</h5>
     <h2>About me</h2>
-    <div>
-      <div>
-        <div>
+    <div className="container about-container">
+      <div className='about-me'>
+        <div className="about-me-img">
           <img src={Myself} alt="myself" />
         </div>
       </div>
       <div>
-        <div>
-          <article>
+        <div className="about-cards">
+          <article className='about-card'>
             <FaAward />
             <h2>Experience</h2>
             <small>1+ years working</small>
