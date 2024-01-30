@@ -30,3 +30,29 @@
 .about-me-img:hover {
     transform: rotate(0);
 }
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about-card {
+    color: #fff;
+    background: #3c3a39;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-card:hover {
+    background: transparent;
+    border-color: #fff;
+    cursor: default;
+}
+
+.about-content p {
+    color: #fff;
+    margin: 2rem 0 2.6rem;
+}
