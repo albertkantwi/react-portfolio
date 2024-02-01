@@ -11,30 +11,29 @@ const Portfolio = () => {
     link: [],
   });
 
-  return(
+  return (
 
-  <section>
-    <h5>My Recent Work</h5>
-    <h2>Portfolio</h2>
+    <section>
+      <h5>My Recent Work</h5>
+      <h2>Portfolio</h2>
 
-    <div className="container portfolio-container">
-      {
+      <div className="container portfolio-container">
+        {
         otherProjects.length > 0 && otherProjects.map((project, index) => (
-          <article key={{index}} className="portfolio-item">
+          <article key={{ index }} className="portfolio-item">
             <div className="portfolio-img">
               <img src={project.image} alt={project.title} />
             </div>
             <h3>{project.title}</h3>
             <div className="btn-container">
-              <button className="btn project-btn">See Project</button>
+              <button type="submit" className="btn project-btn">See Project</button>
             </div>
           </article>
-        )
-        )
+        ))
       }
-    </div>
-    
-  </section>
-);
-  };
+      </div>
+
+    </section>
+  );
+};
 export default Portfolio;
