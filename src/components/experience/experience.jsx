@@ -3,8 +3,8 @@ import './experience.css';
 import { BsPatchCheckFill } from 'react-icons/bs';
 
 const experience = () => (
-  <session>
-    <div className="skill-container">
+  <section>
+    <div className="container skill-container">
       <article className="skill">
         <div className="skill-head">
           <h3>Language</h3>
@@ -87,7 +87,7 @@ const experience = () => (
         </ul>
       </article>
     </div>
-  </session>
+  </section>
 );
 
 export default experience;
