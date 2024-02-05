@@ -3,7 +3,7 @@ import './Contact.css';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
-  const [messageSent, setMeassageSent] = useState('');
+  const [messageSent, setMessageSent] = useState('');
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -16,17 +16,13 @@ const Contact = () => {
         form.current,
         '6Z-d9bUjIqFCqFnzG',
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-          if (result.text === 'OK') {
-            setMeassageSent(true);
-          }
-        },
-        (error) => {
-          console.log(error.text);
-        },
-      );
+      .then((result) => {
+        if (result.text === 'OK') {
+          setMessageSent(true);
+        }
+      });
+
+      e.target.reset();
   };
 
   return (
