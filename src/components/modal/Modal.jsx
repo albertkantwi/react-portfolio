@@ -2,7 +2,7 @@ import React from 'react';
 import './Modal.css';
 
 const Modal = () => (
-  <div>Services</div>
+  <div>Modal-page</div>
 );
 
 export default Modal;
