@@ -6,7 +6,7 @@ import { VscFolderLibrary } from 'react-icons/vsc';
 import Myself from '../../assets/Myself.jpeg';
 
 const About = () => (
-  <section>
+  <section id="about">
     <h5>Get to know</h5>
     <h2>About me</h2>
 
