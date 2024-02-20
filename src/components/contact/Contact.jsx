@@ -33,8 +33,8 @@ const Contact = () => {
       <div className="container contact-container">
         <div className="contact-description">
           <p>
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
+            I&apos;m always interested in hearing about new projects, so if you'd
+            like to chat, please get in touch.
           </p>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -53,7 +53,7 @@ const Contact = () => {
               and try again!
             </p>
           )}
-          <button type="submit" className="btn">
+          <button type="submit" className="btn get-in-touch">
             Get in touch
           </button>
         </form>
