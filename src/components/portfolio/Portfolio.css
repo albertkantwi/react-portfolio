@@ -30,3 +30,18 @@
 .btn-container {
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .portfolio-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+}
