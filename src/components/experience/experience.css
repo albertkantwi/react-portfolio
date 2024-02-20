@@ -41,3 +41,21 @@
 .skill-icon {
     margin-top: 0.2rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .skill-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .skill {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skill-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
