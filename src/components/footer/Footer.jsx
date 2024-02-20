@@ -6,7 +6,7 @@ import { FaAngellist } from 'react-icons/fa';
 
 const Footer = () => (
   <footer>
-    <div>
+    <div className="footer-label-container">
       <hr className="line" />
       <ul className="footer-label">
         <li><a href="#">Home</a></li>
