@@ -41,9 +41,9 @@ const About = () => (
           omnis fuga? Eligendi autem eveniet sed nam! Nesciunt est earum nemo
           a.
         </p>
-        <a href="#contact" className="btn">
+        <a href="#contact" className="btn get-in-touch">
           Get in Touch
-        </a>
+        </a> 
       </div>
     </div>
   </section>
