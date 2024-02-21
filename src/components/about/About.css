@@ -45,6 +45,7 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: 1s;
 }
 
 .about-card:hover {

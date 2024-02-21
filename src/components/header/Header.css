@@ -76,6 +76,7 @@ a {
     z-index: 1;
     animation: rotate 1s linear;
     animation-iteration-count: 1;
+    transition: all 1s ease-in-out;
 }
 
 @keyframes rotate {
@@ -85,6 +86,10 @@ a {
     to {
         transform: rotate(360deg);
     }
+}
+
+.profile:hover {
+    transform: scale(1.1);
 }
 
 .scroll-down {
