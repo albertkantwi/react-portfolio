@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import './Modal.css';
 import { LuArrowUpRightFromCircle } from "react-icons/lu";
 import { PiGithubLogoFill } from "react-icons/pi";
+import { RxCross2 } from "react-icons/rx";
 
-const Modal = ({ projectInfo, onClose }) => (
-  <div className="modal-container">
+const Modal = ({ projectInfo, onClose, isOpen }) => (
+  <div className={`modal-container ${isOpen ? 'blur-background' : ''}`}>
     <div className="modal-page">
       <div className="title-container">
         <h3>{projectInfo.title}</h3>
@@ -14,7 +15,9 @@ const Modal = ({ projectInfo, onClose }) => (
             <li key={index}>{tech}</li>
           ))}
         </ul>
-        <img src={projectInfo.image} alt={projectInfo.title} />
+        <div className="modal-image-container">
+            <img src={projectInfo.image} alt={projectInfo.title} />
+        </div>
       </div>
       <div className="description-container">
         <p>{projectInfo.description}</p>
@@ -32,9 +35,9 @@ const Modal = ({ projectInfo, onClose }) => (
             </a>
           </button>
         </div>
-        <div>
+        <div className="close-container">
             <button type="button" onClick={onClose}>
-              X
+            <RxCross2 className="close" />
             </button>
           </div>
       </div>
@@ -51,6 +54,7 @@ Modal.propTypes = {
     link: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
   onClose: PropTypes.func.isRequired,
+  isOpen: PropTypes.bool.isRequired,
 };
 
 export default Modal;
