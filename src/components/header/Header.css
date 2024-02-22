@@ -39,6 +39,7 @@ header {
     bottom: 3rem;
 }
 
+
 .header-socials::after {
     content: "";
     width: 1px;
@@ -46,9 +47,22 @@ header {
     background: #fff;
 }
 
+.header-socials a {
+    transition: all 0.5s ease-in-out;
+}
+
+.header-socials a:hover {
+    background: var(--secondary-color);
+    padding: 0.3rem;
+    border-radius: 50%;
+    transform: scale(1.02);
+}
+
 a {
     color: #fff;
+    transition: 1s;
 }
+
 
 .image_container {
     width: 35rem;
