@@ -173,8 +173,13 @@
     height: 15rem;
   }
 
+  .title-container h3 {
+    font-size: 1rem;
+  }
+
   .title-container ul li {
     margin: 0;
+    font-size: 12px;
   }
 
   .description-container {
