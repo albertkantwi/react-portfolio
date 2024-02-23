@@ -3,7 +3,7 @@ import './experience.css';
 import { BsPatchCheckFill } from 'react-icons/bs';
 
 const experience = () => (
-  <section>
+  <section id="experience">
     <div className="container skill-container">
       <article className="skill">
         <div className="skill-head">

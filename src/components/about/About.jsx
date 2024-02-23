@@ -36,14 +36,13 @@ const About = () => (
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          quo repudiandae odio quod molestias adipisci assumenda, sed iste
-          omnis fuga? Eligendi autem eveniet sed nam! Nesciunt est earum nemo
-          a.
+          Passionate full-stack software developer with experience in a wide
+          range of technologies and tools. I am passionate about creating
+          impactful solutions and thrive in collaborative environments.
         </p>
         <a href="#contact" className="btn get-in-touch">
           Get in Touch
-        </a> 
+        </a>
       </div>
     </div>
   </section>

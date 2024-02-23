@@ -1,38 +1,37 @@
 .contact {
-    background: #fff;
-    padding: 7rem 0;
+  background: #fff;
+  padding: 7rem 0;
 }
 
 .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: 4rem;
-    margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  margin-top: 3rem;
 }
 
 .contact-description p {
-    text-align: center;
-    color: #172b4d;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2.5rem;
-    cursor: default;
+  text-align: center;
+  color: #172b4d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  cursor: default;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-
-
-input, textarea {
-    width: 100%;
-    padding: 1rem;
-    background: transparent;
-    resize: none;
-    color: #172b4d;
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  resize: none;
+  color: #172b4d;
 }
 
 input {
@@ -41,21 +40,20 @@ input {
 }
 
 textarea {
-    font-style: italic;
-    border: 2px solid #ccc;
-    border-radius: 0.5rem;
+  font-style: italic;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 1024px) {
-    .contact-container {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-    }
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .contact-container {
-        width: 90%;
-    }
-
+  .contact-container {
+    width: 90%;
+  }
 }
