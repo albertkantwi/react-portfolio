@@ -33,7 +33,7 @@ const Contact = () => {
       <div className="container contact-container">
         <div className="contact-description">
           <p>
-            I&apos;m always interested in hearing about new projects, so if you'd
+            I&apos;m always interested in hearing about new projects, so if you&apos;d
             like to chat, please get in touch.
           </p>
         </div>

@@ -12,7 +12,7 @@ const Modal = ({ projectInfo, onClose, isOpen }) => (
         <h3>{projectInfo.title}</h3>
         <ul>
           {projectInfo.technologies.map((tech, index) => (
-            <li key={index}>{tech}</li>
+            <li key={{ index }}>{tech}</li>
           ))}
         </ul>
         <div className="modal-image-container">
@@ -42,7 +42,7 @@ const Modal = ({ projectInfo, onClose, isOpen }) => (
           </button>
         </div>
         <div className="close-container">
-          <button type="button" onClick={onClose}>
+          <button type="button" onClick={onClose} aria-label="Cross">
             <RxCross2 className="close" />
           </button>
         </div>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import otherProjects from '../../data/projectsData';
 import Modal from '../modal/Modal';
 import './Portfolio.css';
@@ -22,7 +21,7 @@ const Portfolio = () => {
       <div className="container portfolio-container">
         {otherProjects.length > 0
         && otherProjects.map((project, index) => (
-          <article key={index} className="portfolio-item">
+          <article key={{ index }} className="portfolio-item">
             <div className="portfolio-img">
               <img src={project.image} alt={project.title} />
             </div>
