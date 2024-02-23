@@ -24,10 +24,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Portofolio-Graciano
+# 📖 Albert's Portfolio
  <a name="about-project"></a>
 
-**Portofolio-Graciano**,Is a project that showcases about me, and portal that connect me with the exterior.
+**Abert's Portfolio**,Is a project that showcases about me, my works, and portal that connect me with the exterior.
 
 ## 🛠 Built With <a name="built-with"></a>
 
