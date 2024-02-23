@@ -27,7 +27,7 @@
 # 📖 Albert's Portfolio
  <a name="about-project"></a>
 
-**Abert's Portfolio**,Is a project that showcases about me, my works, and portal that connect me with the exterior.
+**Abert's Portfolio**, is a project that showcases about me, my works, and portal that connect me with the exterior.
 
 ## 🛠 Built With <a name="built-with"></a>
 

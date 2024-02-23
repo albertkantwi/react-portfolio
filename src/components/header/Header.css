@@ -47,6 +47,11 @@ header {
   background: #fff;
 }
 
+a {
+  color: #fff;
+  transition: 1s;
+}
+
 .header-socials a {
   transition: all 0.5s ease-in-out;
 }
@@ -56,11 +61,6 @@ header {
   padding: 0.3rem;
   border-radius: 50%;
   transform: scale(1.02);
-}
-
-a {
-  color: #fff;
-  transition: 1s;
 }
 
 .image_container {
