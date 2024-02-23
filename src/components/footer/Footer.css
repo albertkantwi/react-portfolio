@@ -1,0 +1,33 @@
+.footer-label {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: #fff;
+  padding: 2rem 0;
+}
+
+hr {
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 1px;
+}
+
+.footer-label a {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer-social {
+  display: flex;
+  background: #3c3a39;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-label-container {
+    display: none;
+  }
+}
