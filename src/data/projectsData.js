@@ -12,7 +12,7 @@ const otherProjects = [
     image: fashion,
     description: 'This is a simple demo summit page for Fashion designers across my country. This project has both mobile and desktop versions.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    link: ['https://albertkantwi.github.io/Portfolio_Project/', 'https://github.com/albertkantwi/Portfolio_Project/'],
+    link: ['https://albertkantwi.github.io/First-Capstone-Project/', 'https://github.com/albertkantwi/First-Capstone-Project/'],
   },
   {
     id: 2,
