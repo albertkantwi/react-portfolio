@@ -52,7 +52,7 @@ const otherProjects = [
     image: budget,
     description: 'Budget App is a Ruby on Rails mobile web application for streamlined budget management. Users can register and log in to keep their financial data private.',
     technologies: ['Ruby on Rails', 'SQL', 'CSS'],
-    link: ['https://budget-app-2vkh.onrender.com/', 'https://github.com/albertkantwi/Budget-App'],
+    link: ['https://budget-mxpc.onrender.com/', 'https://github.com/albertkantwi/Budget-App'],
   },
 ];
 

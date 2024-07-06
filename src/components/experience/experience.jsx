@@ -51,7 +51,7 @@ const experience = () => (
           </li>
           <li>
             <BsPatchCheckFill className="skill-icon" />
-            <h4>Capybars</h4>
+            <h4>Capybara</h4>
           </li>
           <li>
             <BsPatchCheckFill className="skill-icon" />
